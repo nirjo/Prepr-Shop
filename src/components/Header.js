@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import { Container, Dropdown, FormControl, Nav, Navbar } from 'react-bootstrap';
 
@@ -8,7 +7,7 @@ const Header = () => {
     <Navbar bg="primary" variant="dark" style={{ height: 40 }}>
       <Container>
         <Navbar.Brand>
-          <Link to="/"> Prepr-DressShop</Link>
+          <a> Shopping Cart</a>
         </Navbar.Brand>
         <Navbar.Text className="search">
           <FormControl

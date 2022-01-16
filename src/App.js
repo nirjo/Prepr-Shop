@@ -1,11 +1,12 @@
 import React from 'react';
+import './App.css';
 import Header from './components/Header';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
-import Cart from './components/Cart';
+import Cart from './components/Dashboard';
 import Login from './components/login';
-import './App.css';
-const App = () => {
+import Error from './components/Error';
+function App() {
   return (
     <BrowserRouter>
       <Header />
@@ -19,8 +20,12 @@ const App = () => {
         <Route path="/Login">
           <Login />
         </Route>
+        <Route path="/Error">
+          <Error />
+        </Route>
       </div>
     </BrowserRouter>
   );
-};
+}
+
 export default App;
