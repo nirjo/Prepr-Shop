@@ -13,7 +13,7 @@ const Header = () => {
     <Navbar bg="dark" variant="dark">
       <Container>
         <Navbar.Brand>
-          <a> Prepr-Shopping Cart</a>
+          <a> Shopping Cart</a>
         </Navbar.Brand>
       </Container>
     </Navbar>
